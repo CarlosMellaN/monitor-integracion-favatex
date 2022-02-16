@@ -1,0 +1,46 @@
+body{
+    color: #0c0c0c;
+    background-color: #f4f4f4;
+    padding-left: 60px;
+}
+#root{
+    margin-top: 20px;
+}
+.favatex{
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+img{
+    padding-left: 20px;
+}
+@media only screen and (max-width: 500px) {
+    body{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .favatex{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    img{
+        width: 80%;
+    }
+}
+h2{
+    color: #011689!important;
+    font-size: 34px;
+    margin-left: 25px;
+}
+h4{
+    font-size: 24px;
+}
+.animations{
+    width: 200;
+    height: 200;
+}
